@@ -4,3 +4,13 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  /* FIX */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #99B81B;
+  text-stroke-width: 2px;
+  text-stroke-color: #99B81B;
+}

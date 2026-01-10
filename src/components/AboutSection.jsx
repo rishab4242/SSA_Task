@@ -99,7 +99,7 @@ export default function AboutSection() {
       </div>
 
       {/* Tabs */}
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap md:justify-center gap-6 max-sm:mt-10">
         {Object.keys(tabData).map((tab) => (
           <button
             key={tab}
@@ -120,13 +120,13 @@ export default function AboutSection() {
       <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
         {/* Left Content */}
         <div>
-          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:text-left">
+          <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4 md:text-left text-left">
             {current.title}
           </h3>
-          <p className="text-gray-600 leading-relaxed text-base md:text-lg md:text-left">
+          <p className="text-gray-600 leading-relaxed text-base md:text-lg md:text-left text-left">
             {current.description}
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-10 md:text-left">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-10 md:text-left text-left">
             {current.stats.map((item, index) => (
               <div key={index}>
                 <h4 className="text-3xl font-bold text-[#99B81B]">
@@ -138,7 +138,7 @@ export default function AboutSection() {
               </div>
             ))}
             {/* Read More */}
-            <a className="mt-2 text-sm py-3 px-4 left-[135px] bg-[#99B81B] rounded-full border font-semibold text-white  hover:text-gray-600 transition">
+            <a className="mt-2 text-sm py-3 px-4 max-sm:text-center left-[135px] bg-[#99B81B] rounded-full border font-semibold text-white  hover:text-gray-600 transition">
               Read More
             </a>
           </div>
