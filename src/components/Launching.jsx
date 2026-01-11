@@ -1,6 +1,6 @@
 const Launching = () => {
   return (
-    <section className="py-12">
+    <section className="py-12 overflow-x-hidden">
       <div
         className="relative w-full h-[496px] bg-cover bg-center py-12"
         style={{

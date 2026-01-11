@@ -17,7 +17,7 @@ const GradientSection = () => {
   };
 
   return (
-    <section className="w-full max-sm:py-8 md:py-16 bg-white">
+    <section className="w-full max-sm:py-8 md:py-16 bg-white overflow-x-hidden">
       {/* PART 1: Title + Description */}
       <div className="max-w-4xl px-4 md:ml-20">
         <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-left">
