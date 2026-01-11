@@ -11,12 +11,7 @@ const tabData = {
       { value: 17, label: "Years" },
       { value: 10, label: "Clubs" },
     ],
-    images: [
-      "/images/about1.jpg",
-      "/images/about2.jpg",
-      "/images/about3.jpg",
-      "/images/about4.jpg",
-    ],
+    images: ["tennius.png", "tennius2.png", "tenius3.png", "tennius4.png"],
   },
   Coaches: {
     title: "Our Coaches",
@@ -28,12 +23,7 @@ const tabData = {
       { value: 17, label: "Years" },
       { value: 10, label: "Clubs" },
     ],
-    images: [
-      "/images/coach1.jpg",
-      "/images/coach2.jpg",
-      "/images/coach3.jpg",
-      "/images/coach4.jpg",
-    ],
+    images: ["coach1.png", "coach2.png", "coach3.png", "coach4.png"],
   },
   Vision: {
     title: "Our Vision",
@@ -45,12 +35,7 @@ const tabData = {
       { value: 17, label: "Years" },
       { value: 10, label: "Clubs" },
     ],
-    images: [
-      "/images/vision1.jpg",
-      "/images/vision2.jpg",
-      "/images/vision3.jpg",
-      "/images/vision4.jpg",
-    ],
+    images: ["vision1.jfif", "vision2.jfif", "vision3.jfif", "vision4.jfif"],
   },
   Mission: {
     title: "Our Mission",
@@ -62,12 +47,7 @@ const tabData = {
       { value: 17, label: "Years" },
       { value: 10, label: "Clubs" },
     ],
-    images: [
-      "/images/mission1.jpg",
-      "/images/mission2.jpg",
-      "/images/mission3.jpg",
-      "/images/mission4.jpg",
-    ],
+    images: ["mission1.png", "mission2.png", "mission3.png", "mission4.png"],
   },
 };
 
@@ -81,18 +61,21 @@ export default function AboutSection() {
       <div className="flex flex-col lg:flex-row items-center gap-10">
         <div className="w-full lg:w-1/4">
           <img
+            loading="lazy"
             src="/a 1.png"
             alt="Academy"
             className="w-full rounded-xl object-cover"
           />
         </div>
 
-        <div className="w-full lg:w-1/2 text-center lg:text-center">
+        <div className="w-full lg:w-1/2 text-left lg:text-center">
           <p className="text-lg md:text-xl font-medium text-gray-800 leading-relaxed">
             To be the first venue in the world to have{" "}
-            <span className="font-semibold">60 multi surface courts</span> at
-            one location and establish first one stop tennis academy in the Asia
-            Pacific producing{" "}
+            <span className="font-semibold text-[#99B81B]">
+              60 multi surface courts
+            </span>{" "}
+            at one location and establish first one stop tennis academy in the
+            Asia Pacific producing{" "}
             <span className="font-semibold">grand slam champions.</span>
           </p>
         </div>
@@ -149,6 +132,7 @@ export default function AboutSection() {
           {current.images.map((img, index) => (
             <div key={index} className="overflow-hidden rounded-lg">
               <img
+                loading="lazy"
                 src={img}
                 alt={`${current.title} ${index + 1}`}
                 className="w-full h-40 md:h-48 object-cover hover:scale-105 transition-transform duration-300"

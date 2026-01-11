@@ -14,10 +14,10 @@ const KeyFeatures = () => {
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6 mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold font-['Matter'] md:text-left">
+            <h2 className="text-3xl md:text-4xl font-semibold font-['Matter'] text-left">
               Key Features <span className="text-lime-500">•</span>
             </h2>
-            <p className="mt-2 text-gray-500 max-w-md text-sm md:text-base md:text-left">
+            <p className="mt-2 text-gray-500 max-w-md text-sm md:text-base text-left">
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s.
             </p>
@@ -35,7 +35,7 @@ const KeyFeatures = () => {
             {features.map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <span className="mt-1 text-lime-500">➜</span>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed md:text-left">
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   {item}
                 </p>
               </div>
@@ -47,7 +47,7 @@ const KeyFeatures = () => {
             {features.map((item, index) => (
               <div key={`right-${index}`} className="flex items-start gap-3">
                 <span className="mt-1 text-lime-500">➜</span>
-                <p className="text-gray-700 text-sm md:text-base leading-relaxed md:text-left">
+                <p className="text-gray-700 text-sm md:text-base leading-relaxed text-left">
                   {item}
                 </p>
               </div>

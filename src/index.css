@@ -1,9 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 @import "tailwindcss";
 
-body {
-  margin: 0;
-  padding: 0;
+
+
+
+
+@layer base {
+  body {
+
+    font-family: "Inter", system-ui, sans-serif;
+    letter-spacing: -0.01em;
+    font-feature-settings: "cv02", "cv03", "cv04";
+  }
 }
+
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+  font-weight: 600;
+}
+
 
 .stroke-text {
   color: transparent;

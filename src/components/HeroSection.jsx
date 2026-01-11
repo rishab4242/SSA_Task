@@ -87,7 +87,7 @@ const HeroSection = () => {
             PROFESSIONALS
           </div>
           <div className="mt-2 flex justify-center xs:justify-start">
-            <span className="block w-72 h-[1px] bg-white sm:w-full xs:w-[180px]"></span>
+            <span className="block w-72 h-[1px] bg-white"></span>
           </div>
         </div>
       </div>
@@ -188,15 +188,7 @@ const HeroSection = () => {
           <span className="w-[8px] h-[1.5px] bg-[#CEED4E] rotate-[-45deg] origin-left" />
         </div>
       </div>
-      <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
-        w-[466px] h-[768px]
-        border border-[0.5px] border-[#FFFFFF33]
-        opacity-100
-        sm:w-[350px] sm:h-[600px]
-        xs:hidden
-      "
-      ></div>
+
       <div
         className="absolute top-[470px] right-0 flex flex-col items-end text-white
       sm:top-[400px] sm:right-4 sm:w-[180px]

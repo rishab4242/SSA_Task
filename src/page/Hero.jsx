@@ -9,6 +9,7 @@ import TextMarquee from "../components/TextMarquee";
 import Launching from "../components/Launching";
 import TestimonialSection from "../components/TestimonialSection";
 import GradientSection from "../components/GradientSection";
+import Events from "../components/Events";
 
 const Hero = () => {
   return (
@@ -23,6 +24,7 @@ const Hero = () => {
       <Launching />
       <TestimonialSection />
       <GradientSection />
+      <Events />
     </>
   );
 };

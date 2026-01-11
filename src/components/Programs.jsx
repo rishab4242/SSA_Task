@@ -23,10 +23,10 @@ const Programs = () => {
         {/* Header */}
         <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold font-['Matter'] md:text-left">
+            <h2 className="text-3xl md:text-4xl font-semibold font-['Matter'] text-left">
               Programs <span className="text-lime-500">•</span>
             </h2>
-            <p className="mt-3 max-w-md text-sm md:text-base text-gray-500 md:text-left">
+            <p className="mt-3 max-w-md text-sm md:text-base text-gray-500 text-left">
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book.
@@ -47,6 +47,7 @@ const Programs = () => {
             >
               {/* Image */}
               <img
+                loading="lazy"
                 src={item.image}
                 alt={item.title}
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"

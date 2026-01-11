@@ -21,7 +21,7 @@ const testimonials = [
 
 const TestimonialSection = () => {
   return (
-    <section className="w-full px-6 py-16 bg-white">
+    <section className="max-w-6xl mx-auto px-6 md:py-16 max-sm:py-8 bg-white">
       {/* Top Content */}
       <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-10">
         {/* Left Content */}
@@ -37,9 +37,7 @@ const TestimonialSection = () => {
 
         {/* View All Button */}
         <div className="mt-6 md:mt-0">
-          <button
-            className="px-4 py-2 rounded-2xl border bg-[#99B81B] text-white transition-all"
-          >
+          <button className="px-4 py-2 rounded-2xl border bg-[#99B81B] text-white transition-all">
             View All
           </button>
         </div>
@@ -55,6 +53,7 @@ const TestimonialSection = () => {
             {/* Image */}
             <div className="w-full h-80 rounded-lg overflow-hidden mb-4">
               <img
+                loading="lazy"
                 src={item.image}
                 alt={item.name}
                 className="w-full h-full object-cover"

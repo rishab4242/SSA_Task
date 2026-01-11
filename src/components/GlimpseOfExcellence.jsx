@@ -1,6 +1,6 @@
 const GlimpseOfExcellence = () => {
   return (
-    <section className="relative w-full bg-white px-4 py-16 md:px-8 lg:px-20">
+    <section className="relative w-full bg-white px-4 md:py-16 md:px-8 lg:px-20">
       {/* Background Wave Pattern (optional) */}
       <div className="absolute inset-0 bg-[url('/wave-pattern.png')] bg-cover bg-top opacity-20 pointer-events-none" />
 
@@ -8,10 +8,10 @@ const GlimpseOfExcellence = () => {
         {/* Header */}
         <div className="mb-10 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <h2 className="text-3xl md:text-4xl font-semibold font-['Matter'] md:text-left">
+            <h2 className="text-3xl md:text-4xl font-semibold font-['Matter'] text-left">
               A Glimpse of Excellence <span className="text-lime-500">•</span>
             </h2>
-            <p className="mt-2 max-w-md text-sm md:text-base text-gray-500 md:text-left">
+            <p className="mt-2 max-w-md text-sm md:text-base text-gray-500 text-left">
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s.
             </p>
@@ -27,7 +27,8 @@ const GlimpseOfExcellence = () => {
           {/* Left Image */}
           <div className="lg:col-span-4">
             <img
-              src="./tenius.png"
+              loading="lazy"
+              src="tenius3.png"
               alt="Tennis Player"
               className="h-full w-full rounded-xl object-cover"
             />
@@ -36,7 +37,8 @@ const GlimpseOfExcellence = () => {
           {/* Right Image */}
           <div className="lg:col-span-8">
             <img
-              src="./tenius_ground.png"
+              loading="lazy"
+              src="/tenius_ground.png"
               alt="Tennis Courts"
               className="h-full w-full rounded-xl object-cover"
             />

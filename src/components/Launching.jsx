@@ -4,8 +4,7 @@ const Launching = () => {
       <div
         className="relative w-full h-[496px] bg-cover bg-center py-12"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1501785888041-af3ef285b470')",
+          backgroundImage: "url('launching.png')",
         }}
       >
         {/* Overlay Card */}
@@ -32,7 +31,9 @@ const Launching = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-base font-medium mb-6 md:text-left">SSA Connectivity</p>
+          <p className="text-base font-medium mb-6 md:text-left">
+            SSA Connectivity
+          </p>
 
           {/* List */}
           <ul className="space-y-3 text-sm">
