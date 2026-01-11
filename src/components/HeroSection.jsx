@@ -41,6 +41,8 @@ const HeroSection = () => {
         text-white
         sm:w-[220px] sm:text-[16px] sm:mt-[150px] sm:h-auto
         xs:w-[180px] xs:text-[14px] xs:mt-[120px]
+        max-sm:text-base
+        max-sm:mb-2
       "
         >
           SSA HUNTER VALLEY
@@ -69,6 +71,7 @@ const HeroSection = () => {
           tracking-[0.02em]
           sm:text-[24px]
           xs:text-[20px]
+          max-sm:text-base
         "
           >
             GROW YOUR GAME WITH THE

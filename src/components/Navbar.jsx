@@ -42,6 +42,7 @@ const Navbar = () => {
             w-[65px]
             h-[16px]
             flex items-center justify-center
+            max-sm:text-sm
           "
         >
           Contact Us
