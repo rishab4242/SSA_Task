@@ -71,7 +71,7 @@ const HeroSection = () => {
           tracking-[0.02em]
           sm:text-[24px]
           xs:text-[20px]
-          max-sm:text-base
+          max-sm:text-[22px]
         "
           >
             GROW YOUR GAME WITH THE
